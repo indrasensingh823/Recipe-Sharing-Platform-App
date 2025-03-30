@@ -1,0 +1,70 @@
+/* src/components/Footer.css */
+.footer-container {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ffd700;
+  }
+  
+  .feedback-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .feedback-form button {
+    padding: 0.8rem;
+    background: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background: #ffcc00;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+  }
